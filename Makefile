@@ -7,3 +7,6 @@ ex1: src/example1.cpp
 
 ex2: src/example2.cpp
 	$(CXX) -o main $^ -I$(DIR)/include/gecode -L$(DIR)/lib $(LIBS)
+
+ex3: src/example3.cpp
+	$(CXX) -o main $^ -I$(DIR)/include/gecode -L$(DIR)/lib $(LIBS)
